@@ -1,5 +1,25 @@
-# layer5-repo-template
-This repository is used as the boilerplate for consistency across all Layer5 repos.
+# mesheryctl-aliases
+Programmatically generated, handy mesheryctl aliases.
+
+### Examples
+
+Some of the generated aliases are:
+```shell
+alias m="mesheryctl"
+alias ms="mesheryctl system"
+
+alias msl="mesheryctl system logs"
+...
+```
+
+### Installation
+
+You can directly download the .mesheryctl_aliases file and save it in your `$HOME` directory, then edit your `.bashrc/.zshrc` file with:
+```shell
+[ -f ~/.mesheryctl_aliases ] && source ~/.mesheryctl_aliases
+```
+
+> Aliases won't persist once the shell is exited. Hence, make sure to run this command each time you want to use aliases in a session
 
 <div>&nbsp;</div>
 
