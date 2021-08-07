@@ -1,0 +1,3 @@
+alias m="mesheryctl"
+alias ms="mesheryctl system"
+alias msl="mesheryctl system logs"
