@@ -19,7 +19,6 @@ assignees: ''
 - Kubernetes Version: 
 - Host OS:
 - Browser: 
-
 <!-- Optional 
 #### To Reproduce
 Steps to reproduce the behavior:
